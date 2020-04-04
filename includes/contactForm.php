@@ -1,4 +1,4 @@
-<?php include_once("functions/companyInfo.php")?>
+
 <div class="contact-area pd-top-80 pd-bottom-50">
         <div class="container">
             <div class="row">
@@ -57,7 +57,7 @@
                     <div class="contact-info">
                         <div class="info text-center">
                             <i class="fa fa-map-marker"></i>
-                            <h3>Office & Works</h3>
+                            <h3><?php officeWorksPL()?></h3>
                             <p><?php officeWorks();?></p>
                         </div>
                         <div class="info text-center">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="info text-center">
                             <i class="fa fa-phone"></i>
-                            <h3>Contact</h3>
+                            <h3><?php contactPL();?></h3>
                             <p>
                                Phone:<?php tel();?><br>
                                email:<?php email();?>

@@ -1,5 +1,9 @@
 <?php
 
+function companyName()
+{
+	echo "Kaushiks International";
+}
 function officeWorks()
 {
 	echo "3407, 2nd Cross, 10th Main,<br>

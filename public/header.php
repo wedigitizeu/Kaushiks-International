@@ -44,7 +44,7 @@
                                     <li><a href="blog-details-left-sidebar.html">blog-details-left-sidebar</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="contact.html">Contact</a></li>
+                            <li class="active"><a href="contact.php"><?php contactPL();?></a></li>
                         </ul>
                     </div>
                 </div>
