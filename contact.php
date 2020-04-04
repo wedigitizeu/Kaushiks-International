@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <?php include_once("public/head.php");?>
-
+<title>Contact Us</title>
 <body>
     <!-- Preloader Start -->
     <div class="discover-preloader-wrapper">
@@ -14,59 +14,7 @@
     <!-- Preloader End -->
     
     <!-- Header Area Start -->
-    <div class="header-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <div class="logo">
-                        <a href="index-2.html">
-                            <h1>discover</h1>
-                        </a>
-                    </div>
-                    <div class="responsive-menu"></div>
-                </div>
-                <div class="col-md-10">
-                    <div class="mainmenu">
-                        <ul>
-                            <li><a href="index-2.html">Home <i class="fa fa-angle-right"></i></a>
-                                <ul>
-                                    <li><a href="index-3.html">Home Style 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="project.html">Project <i class="fa fa-angle-right"></i></a>
-                                <ul>
-                                    <li><a href="project-colum-2.html">Project Colum 2</a></li>
-                                    <li><a href="project-colum-4.html">Project Colum 4</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="services.html">Services <i class="fa fa-angle-right"></i></a>
-                                <ul>
-                                    <li><a href="services-style-2.html">Services Style 2</a></li>
-                                    <li><a href="services-style-3.html">Services Style 3</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Page <i class="fa fa-angle-right"></i></a>
-                                <ul>
-                                    <li><a href="404.html">404 Not Found</a></li>
-                                    <li><a href="single-service.html">Single Service</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog.html">Blog <i class="fa fa-angle-right"></i></a>
-                                <ul>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-details-right-sidebar.html">blog-details-right-sidebar</a></li>
-                                    <li><a href="blog-details-left-sidebar.html">blog-details-left-sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li class="active"><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include_once("public/header.php");?>
     <!-- Header Area End -->
     
     <!-- Breadcrumb Area Start -->
@@ -91,59 +39,7 @@
     <!-- Breadcrumb Area End -->
     
     <!-- Contact Area Start -->
-    <div class="contact-area pd-top-80 pd-bottom-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 col-sm-6">
-                    <div class="contact-form">
-                        <form action="http://formspree.io/syedraziul@gmail.com" method="POST">
-                            <p>
-                               <label for="name">Your name *</label>
-                                <input type="text" name="name" placeholder="Enter your Name" required>
-                            </p>
-                            <p>
-                               <label for="email">Your email *</label>
-                                <input type="email" name="email" placeholder="Enter your Email" required>
-                            </p>
-                            <p>
-                               <label for="phone">Your Phone</label>
-                                <input type="tel" name="phone" placeholder="your Phone">
-                            </p>
-                            <p>
-                               <label for="message">Your Message</label>
-                                <textarea name="message" placeholder="Type Your Message"></textarea>
-                            </p>
-                            <p>
-                               <input type="submit" value="Send">
-                            </p>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-5 col-md-offset-1 col-sm-6">
-                    <div class="contact-info">
-                        <div class="info text-center">
-                            <i class="fa fa-map-marker"></i>
-                            <h3>Location</h3>
-                            <p>Sydney NSW 2000, Australia</p>
-                        </div>
-                        <div class="info text-center">
-                            <i class="fa fa-clock-o"></i>
-                            <h3>Schedule</h3>
-                            <p>Open Form Friday Through <br> Thusday Form 9h to 17h</p>
-                        </div>
-                        <div class="info text-center">
-                            <i class="fa fa-phone"></i>
-                            <h3>Contact</h3>
-                            <p>
-                               Phone:+88045678412 <br>
-                               email:sti@yahoo.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <?php include_once('includes/contactForm.php');?>
     <!-- Contact Area End -->
     <div class="map-area">
         <div class="container">
