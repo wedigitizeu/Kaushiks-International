@@ -12,13 +12,13 @@
                         <div class="footer-widgets">
                             <h3>Support Links</h3>
                             <ul id="navigation">
-                                <li><a href="index-2.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
+                                <li><a href="index-2.html"><?php homePL();?></a></li>
+                                <li><a href="about.html"><?php aboutusPL();?></a></li>
                                 <li><a href="project.html">Project</a></li>
-                                <li><a href="services.html">Service</a></li>
+                                <li><a href="services.html"><?php servicesPL();?></a></li>
                                 <li><a href="index-2.html">Pricing</a></li>
                                 <li><a href="404.html">404</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog.html"><?php blogPL();?></a></li>
                                 <li><a href="contact.html"><?php contactPL();?></a></li>
                             </ul>
                         </div>

@@ -17,7 +17,7 @@ $query="INSERT INTO `contact`(`date`, `time`, `fname`, `lname`, `email`, `phone`
 $exe=mysqli_query($conn,$query);
 if($exe)
 {
-	echo "Inserted";
+	echo "<p style='color:#f41c54;'>We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone number listed below to talk to one of our staff members. Otherwise, we will reply by email as soon as possible.</p>";
 }
 else
 {

@@ -98,7 +98,7 @@
               $('#response').fadeIn().html(data);  
               setTimeout(function(){  
                $('#response').fadeOut("slow");  
-           }, 5000);  
+           }, 15000);  
           }  
       }); 
         });
