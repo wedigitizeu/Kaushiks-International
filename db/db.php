@@ -24,7 +24,7 @@ class database{
 	public $host="localhost";
 	public $userName="root";
 	public $password="";
-	public $databaseName="epicplanners";
+	public $databaseName="kaushik";
 	public $con;
 
 

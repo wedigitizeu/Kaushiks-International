@@ -6,12 +6,12 @@
 <title><?php contactPL();?></title>
 <body>
     <!-- Preloader Start -->
-    <div class="discover-preloader-wrapper">
+   <!--  <div class="discover-preloader-wrapper">
        <div class="spinner">
           <div class="dot1"></div>
           <div class="dot2"></div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader End -->
     
     <!-- Header Area Start -->
