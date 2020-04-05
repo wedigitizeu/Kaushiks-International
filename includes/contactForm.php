@@ -8,11 +8,11 @@
                     <form id="submit_form">
                         <p>
 
-                            <input type="text" name="FName" placeholder="First Name*" id="FName">
+                            <input type="text" name="fName" placeholder="First Name*" id="fName">
                         </p>
                         <p>
 
-                            <input type="text" name="LName" placeholder="Last Name*" id="LName">
+                            <input type="text" name="lName" placeholder="Last Name*" id="lName">
                         </p>
                         <p>
 
@@ -40,12 +40,12 @@
 
                         <p>
 
-                            <input type="text" name="address1"  placeholder="ZIP/Postal Code*" id="zipc">
+                            <input type="text" name="zip"  placeholder="ZIP/Postal Code*" id="zip">
                         </p>
 
                         <p>
 
-                            <textarea name="message" placeholder="Comment" id="comment"></textarea>
+                            <textarea name="comment" placeholder="Comment" id="comment"></textarea>
                         </p>
                         <p>
                          <input id="sub" type="submit" value="Submit">
