@@ -17,7 +17,7 @@
     <!-- Header Area Start -->
     <?php include_once("public/header.php");?>
     <!-- Header Area End -->
-    <h1>HI Prakash</h1>
+    <h1>HI Prakash Koppal</h1>
     <!-- Breadcrumb Area Start -->
     <div class="discover-breadcrumb-area breadcrumb-banner-bg">
         <div class="container">
